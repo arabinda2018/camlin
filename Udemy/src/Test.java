@@ -7,8 +7,8 @@ public class Test {
 
 	Test(String a) {
 		System.out.println(" your name " + a);
+	throw new  ArabException ("hi");
 	}
-
 	Test(int a, int b) {
 		System.out.println(a);
 		System.out.println(b);
